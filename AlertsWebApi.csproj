@@ -21,8 +21,13 @@
 
   <ItemGroup>
     <Folder Include="Data\" />
-    <Folder Include="Migrations\" />
+    <Folder Include="Migrations\NewFolder\" />
   </ItemGroup>
 
+	<ItemGroup>
+		<None Update="C:\Users\guana\source\repos\AlertsWebApi\Data\ObDatabase.db">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
 
 </Project>

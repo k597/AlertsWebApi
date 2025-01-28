@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AlertsWebApi.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250128172051_InitialCreate")]
+    [Migration("20250128183315_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
